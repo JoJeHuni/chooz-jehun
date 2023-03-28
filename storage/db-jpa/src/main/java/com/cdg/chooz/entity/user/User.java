@@ -82,7 +82,7 @@ public class User extends BaseTimeEntity {
 //        this.modifiedMBTIDate = modifiedMBTIDate;
 //    }
 
-    public void addUserInfo(int age, MbtiType mbti, GenderType gender) {
+    public void addUserInfo(Integer age, MbtiType mbti, GenderType gender) {
         this.age = age;
         this.mbti = mbti;
         this.gender = gender;
